@@ -8,5 +8,8 @@ bash ./Anaconda3-2019.03-Linux-x86_64.sh
 echo "installation completed"
 sleep 3
 source ~/anaconda3/bin/activate
+history -c
 conda update conda
 echo "write anaconda-navigator to initiate Anaconda"
+/bin/nano ~/.bashrc
+
